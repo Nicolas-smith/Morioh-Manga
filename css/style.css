@@ -38,8 +38,11 @@ header nav section div {
 header nav section a img {
     width: 150px;
     height: 100px;
-    padding-top: 2px;
     margin: 2px 2px 2px 2px;
+}
+
+.logo-index {
+    border: 1px solid white;
 }
 
 header nav section div ul {
@@ -87,6 +90,10 @@ header nav section div ul li a img{
     margin-left: 2px;
 }
 
+.logo-iniciar-sesion {
+    border: 1px solid white;
+}
+
 .encabezado h2 {
     font-size: 80px;
     font-family: 'Lato', sans-serif;
@@ -96,6 +103,12 @@ header nav section div ul li a img{
     padding: 5px;
     margin-bottom: 10px;
     box-shadow: 1px 3px 8px black;
+}
+
+/*HEADER-IVREA*/
+
+.logo-ivrea {
+    border: 1px solid white;
 }
 
 /*MAIN-INDEX*/
@@ -241,6 +254,51 @@ header nav section div ul li a img{
     margin-bottom: 240px;
 }
 
+/*MAIN-IVREA*/
+.tituloivrea {
+    color: brown;
+    font-size: 80px;
+    text-align: center;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 2px 5px 5px black;
+}
+
+.catalogo {
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+.catalogo__grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.catalogo__grid div {
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.catalogo__grid h3 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    color: brown;
+    font-size: 30px;
+    background-color: white;
+    border-bottom: 2px solid #edb753b6;
+}
+
+.catalogo__grid-item {
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+}
+
+
 /*FOOTER-INDEX*/
 
 footer h3 {
@@ -262,12 +320,6 @@ footer section a img {
 }
 
 /* FOOTER-INICIARSESION */
-
-
-
-
-
-
 
 
 @media (min-width: 320px) and (max-width: 500px) {
