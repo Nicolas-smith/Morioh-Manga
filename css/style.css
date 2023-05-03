@@ -354,7 +354,7 @@ footer section a img {
 
     /*HEADER-INICIAR-SESION*/
     .encabezado{
-        padding-bottom: 20px;
+        padding-bottom: 80px;
     }
 
     .encabezado a img {
@@ -411,19 +411,23 @@ footer section a img {
 
     /*MAIN-INICIAR-SESION*/
     .iniciarsesion__box-form {
-        margin: 13px;
-        padding: 9px;
+        margin: 17px;
+        padding: 13px;
     }
     
     .iniciarsesion__box-form input {
-        margin: 7px;
-        padding: 8px;
+        margin: 9px;
+        padding: 10px;
         margin-bottom: 28px;
     }
 
     .iniciarsesion__box-form-button button {
-        margin-bottom: 149px;
+        margin-bottom: 190px;
     }
+
+    /* FOOTER-INICIAR-SESION */
+
+
 } 
     
 @media (min-width:501px) and (max-width:768px) {
@@ -499,9 +503,19 @@ footer section a img {
     }
 
     /*MAIN-INICIAR-SESION*/
+    .iniciarsesion__box-form {
+        margin: 23px;
+        padding: 19px;
+    }
+    
+    .iniciarsesion__box-form input {
+        margin: 11px;
+        padding: 12px;
+        margin-bottom: 30px;
+    }
 
     .iniciarsesion__box-form-button button {
-        margin-bottom: 160px;
+        margin-bottom: 200px;
     }
 
 } 
