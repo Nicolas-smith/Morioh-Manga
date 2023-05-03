@@ -78,6 +78,10 @@ header nav section div ul li a img{
     font-weight: bolder;
 }
 
+.busqueda-index input:hover {
+    color: rgba(0, 0, 255, 0.745);
+}
+
 /*HEADER-INICIAR-SESION*/
 .encabezado{
     padding-bottom: 100px;
