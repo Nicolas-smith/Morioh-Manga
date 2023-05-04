@@ -259,6 +259,11 @@ header nav section div ul li a img{
     margin-bottom: 8px;
 }
 
+.iniciarsesion__box-form-button button:hover {
+    color: whitesmoke;
+}
+
+
 .iniciarsesion__box-form-button-crear {
     display: flex;
     justify-content: center;
