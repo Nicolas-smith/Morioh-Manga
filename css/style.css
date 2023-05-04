@@ -255,7 +255,34 @@ header nav section div ul li a img{
     background-color: black;
     box-shadow: 1px 1px 1px 2px;
     font-weight: bolder;
-    margin-bottom: 240px;
+    margin-bottom: 8px;
+}
+
+.iniciarsesion__box-form-button-crear {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 220px;
+    align-items: center;
+}
+
+.iniciarsesion__box-form-button-crear h4 {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    color: brown;
+    margin-top: 2px;
+}
+
+
+.iniciarsesion__box-form-button-crear-hiper a {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    color: brown;
+    font-weight: bolder;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.672);
+    text-decoration: none;
+    margin-left: 10px;
 }
 
 /*MAIN-IVREA*/
@@ -422,12 +449,12 @@ footer section a img {
     }
 
     .iniciarsesion__box-form-button button {
-        margin-bottom: 190px;
+        margin-bottom: 40px;
     }
 
-    /* FOOTER-INICIAR-SESION */
-
-
+    .iniciarsesion__box-form-button-crear {
+        padding-bottom: 180px;
+    }
 } 
     
 @media (min-width:501px) and (max-width:768px) {
@@ -515,7 +542,11 @@ footer section a img {
     }
 
     .iniciarsesion__box-form-button button {
-        margin-bottom: 200px;
+        margin-bottom: 60px;
+    }
+
+    .iniciarsesion__box-form-button-crear {
+        padding-bottom: 200px;
     }
 
 } 
