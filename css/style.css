@@ -123,6 +123,7 @@ header nav section div ul li a img{
     font-style: normal;
     font-family: 'Lato', sans-serif;
     box-shadow: 2px 5px 5px black;
+    font-weight: bolder;
 }
 
 .titulo__container-navbar ul {
@@ -548,7 +549,6 @@ footer section a img {
     .iniciarsesion__box-form-button-crear {
         padding-bottom: 200px;
     }
-
 } 
 
 @media (min-width:769px) and (max-width:1239px) {
