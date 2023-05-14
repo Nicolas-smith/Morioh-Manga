@@ -1,0 +1,14 @@
+{
+  "name": "preentrega2smith",
+  "version": "1.0.0",
+  "description": "Este es un proyecto de práctica de HTML y CSS del curso de **Desarrollo Web**.",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "sass ./sass/main.scss ./css/main.css -w"
+  },
+  "author": "Nicolás Smith",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}

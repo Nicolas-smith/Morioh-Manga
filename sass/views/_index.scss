@@ -1,0 +1,60 @@
+header nav{
+    border-bottom: 4px solid black;
+}
+
+header nav section {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav section div {
+    display: flex;
+    justify-content: end;
+}
+
+header nav section a img {
+    width: 150px;
+    height: 100px;
+    margin: 2px 2px 2px 2px;
+}
+
+.logo-index {
+    border: 1px solid white;
+}
+
+header nav section div ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+header nav section div ul li a img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.busqueda-index {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    margin-right: 5px;
+    height: 35px; 
+
+    & input {
+        border-radius: 30px;
+        border: 1px solid brown;
+        padding: 6px;
+        color: brown;
+        border: 2px solid black;
+        background-color: rgba(0, 0, 0, 0.850);
+        box-shadow: 1px 1px 1px 2px;
+        font-weight: bolder;
+    }
+
+    & input:hover {
+        color: rgba(0, 0, 255, 0.745);
+    }
+    }
