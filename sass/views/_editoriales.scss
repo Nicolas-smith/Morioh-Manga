@@ -1,0 +1,71 @@
+.titulo-editorial {
+    color: $fontmain;
+    font-size: 80px;
+    text-align: center;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 2px 5px 5px $fontdark;
+}
+
+.catalogo {
+    margin-top: 15px;
+    padding-bottom: 10px;
+
+
+    &__grid {
+        @extend .grid;
+        @include templateGrid(2 , 3);
+    
+
+        & div {
+        background-color: $fontlight;
+        border: 2px solid $fontdark;
+        text-align: center;
+        }
+
+        & h3 {
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        color: $fontmain;
+        font-size: 30px;
+        background-color: $fontlight;
+        border-bottom: 2px solid #edb753b6;
+        }
+
+        &-item {
+        padding: 15px;
+        margin: 10px;
+        background-color: $fontlight;
+        }
+    }
+}
+
+@media (min-width: $pxmin) and (max-width: $pxmed) {
+    .titulo-editorial {
+        font-size: 40px;
+    }
+
+    .catalogo__grid {
+        @include templateGrid(1 , 6);
+    }
+}
+
+@media (min-width:$pxmed1) and (max-width:$pxlarge) {
+    .titulo-editorial {
+        font-size: 50px;
+    }
+
+    .catalogo__grid h3 {
+        font-size: 22px;
+    }
+}
+@media (min-width:$pxlarge1) and (max-width:$pxmax) {
+    .titulo-editorial {
+        font-size: 60px;
+    }
+
+    .catalogo__grid h3 {
+        font-size: 25px;
+    }
+
+}
