@@ -4,17 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iniciar sesión</title>
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/main.css">
+    <!--<link rel="stylesheet" href="../css/style.css" /> -->
     <link rel="shortcut icon" href="../assets/images/favicon.ico.ico" type="image/x-icon"/>
 </head>
 <body>
-    <header class="encabezado">
-        <a href="../index.html">
-            <img class="logo-iniciar-sesion" src="../assets/images/banner.jpg" alt="Logo" />
-        </a>
-        <h2>Iniciar Sesión</h2>
-    </header>
-    <main>
+    <header>
+        <nav>
+            <section>
+                <a href="../index.html">
+                    <img class="logo-index" src="../assets/images/banner.jpg" alt="Logo" />
+                </a>
+            <div>
+                <ul>
+                    <li>    
+                        <a href="../pages/iniciarSesion.html">
+                            <img src="../assets/images/iniciarSesion.png" alt="Iniciar Sesion" />
+                        </a>
+                    </li>
+                    <li>    
+                        <a href="#">
+                            <img src="../assets/images/carrito.png" alt="Carrito" />
+                        </a>
+                    </li>    
+                </ul>
+            <div>   
+                <form class="busqueda-index" action="Busqueda.php">
+                    <label for="Buscar"></label>
+                    <input type="search" placeholder="Buscar" id="Buscar"/>
+                </form>
+            </div>    
+            </div>
+            </section>
+        </header>
+    <main class="encabezado">
+        <h1>Iniciar Sesión</h1>
         <section class="iniciarsesion">
             <div class="iniciarsesion__box">
                 <form class="iniciarsesion__box-form" action="inicio de sesión.php">

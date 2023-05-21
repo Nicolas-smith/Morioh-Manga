@@ -1,0 +1,139 @@
+//MAIN
+
+.encabezado h1 {
+    font-size: 80px;
+    font-family: 'Lato', sans-serif;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-shadow: 1px 3px 8px black;
+}
+
+.iniciarsesion__box {
+    display: flex;
+    justify-content: center;
+    margin-top: 91px;
+
+    &-form {
+        font-family: 'Lato',sans-serif ;
+        color: brown;
+        text-align: justify;
+        margin: 15px;
+        padding: 10px;
+        
+
+        & input {
+            margin: 15px;
+            padding: 8px;
+            display: flex;
+            margin-bottom: 50px;
+            border-radius: 10px;
+            color: brown;
+            border: 2px solid black;
+            background-color: rgba(0, 0, 0, 0.850);
+            box-shadow: 1px 1px 1px 2px;
+            font-weight: bolder;
+        }
+
+        &-button {
+        display: flex;
+        justify-content: center;
+        
+
+            & button {
+            border-radius: 10px;
+            padding: 3px;
+            color: brown;
+            border: 2px solid black;
+            background-color: black;
+            box-shadow: 1px 1px 1px 2px;
+            font-weight: bolder;
+            margin-bottom: 8px;
+            }
+
+            & button:hover {
+            color: whitesmoke;
+            }
+
+
+            &-crear {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 220px;
+            align-items: center;
+            
+
+                & h4 {
+                font-size: 20px;
+                font-family: 'Lato', sans-serif;
+                font-style: normal;
+                color: brown;
+                margin-top: 2px;
+                }
+
+
+                &-hiper a {
+                font-size: 20px;
+                font-family: 'Lato', sans-serif;
+                font-style: normal;
+                color: brown;
+                font-weight: bolder;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.672);
+                text-decoration: none;
+                margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:$pxmin) and (max-width:$pxmed) {
+    .encabezado h1 {
+        font-size: 40px;
+    }
+    .iniciarsesion__box-form {
+        margin: 17px;
+        padding: 13px;
+    
+    
+        & input {
+            margin: 9px;
+            padding: 10px;
+            margin-bottom: 28px;
+        }
+
+            &-button button {
+            margin-bottom: 40px;
+            }
+                &-button-crear {
+                padding-bottom: 180px;
+                } 
+            
+    } 
+}
+
+@media (min-width:$pxmed1) and (max-width:$pxlarge) {
+    .iniciarsesion__box-form {
+        margin: 23px;
+        padding: 19px;
+    
+    
+        & input {
+            margin: 11px;
+            padding: 12px;
+            margin-bottom: 30px;
+        }
+
+        &-button button {
+        margin-bottom: 60px;
+        }
+
+        &-button-crear {
+            padding-bottom: 200px;
+        }
+    }
+}
+
+            

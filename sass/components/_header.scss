@@ -1,0 +1,136 @@
+
+header nav{
+    border-bottom: 4px solid $fontdark;
+}
+
+header nav section {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav section div {
+    display: flex;
+    justify-content: end;
+}
+
+header nav section a img {
+    width: 150px;
+    height: 100px;
+    margin: 2px 2px 2px 2px;
+}
+
+.logo-index {
+    border: 1px solid $fontlight;
+}
+
+header nav section div ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+header nav section div ul li a img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.busqueda-index {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    margin-right: 5px;
+    height: 35px; 
+
+    & input {
+        border-radius: 30px;
+        border: 1px solid $fontmain;
+        padding: 6px;
+        color: $fontmain;
+        border: 2px solid $fontdark;
+        background-color: rgba(0, 0, 0, 0.850);
+        box-shadow: 1px 1px 1px 2px;
+        font-weight: bolder;
+    }
+
+    & input:hover {
+        color: rgba(0, 0, 255, 0.745);
+    }
+}
+
+@media (min-width: $pxmin) and (max-width: $pxmed) {
+    header nav section a img {
+        width: 75px;
+        height: 50px;
+    }
+   
+    header nav section div ul li a img{
+        width: 30px;
+        height: 30px;
+        padding: 2px;
+        margin: 2px;
+    }
+    
+    .busqueda-index {
+        height: 17px;
+        width: 20px;
+        display: inline-flex;
+        margin-top: 33px;   
+    
+
+        & input {
+            width: 120px;
+        }
+    }
+}
+
+@media (min-width:$pxmed1) and (max-width:$pxlarge) {
+    header nav section a img {
+        width: 100px;
+        height: 75px;
+    }
+   
+    header nav section div ul li a img{
+        width: 40px;
+        height: 40px;
+        padding: 2px;
+        margin: 2px;
+    }
+    
+        .busqueda-index {
+            height: 23px;
+            width: 26px;
+            display: inline-flex;
+            margin-top: 43px;   
+    
+
+        & input {
+            width: 140px;
+        }
+    }
+}
+
+@media screen and (min-width:$pxlarge1) and (max-width:$pxmax) {
+    header nav section a img {
+        width: 120px;
+        height: 95px;
+    }
+   
+    header nav section div ul li a img{
+        width: 45px;
+        height: 45px;
+    }
+    
+    .busqueda-index {
+        height: 25px;
+        width: 20px;
+        margin-top: 58px;   
+    
+
+        & input {
+            width: 160px;
+        }
+    }
+}

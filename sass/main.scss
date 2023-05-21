@@ -1,5 +1,13 @@
 //utils
 @import "./utils/global";
-@import "./utils/variables"
+@import "./utils/variables";
 
 //views
+
+@import "./views/index";
+@import "./views/iniciarSesion";
+
+//components
+
+@import "./components/header";
+@import "./components/footer";
