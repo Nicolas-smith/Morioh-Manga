@@ -1,14 +1,12 @@
 footer h3 {
-    display: flex;
-    justify-content: center;
+    @include templateFlex(center, none);
     font-family: "Lato", sans-serif;
     font-size: large;
     color: $fontmain;
 }
 
 footer section{
-    display: flex;
-    justify-content: center;
+    @include templateFlex(center, none);
 }
 
 footer section a img {

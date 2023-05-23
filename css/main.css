@@ -520,6 +520,7 @@ header nav section div ul li a img {
 footer h3 {
   display: flex;
   justify-content: center;
+  list-style: none;
   font-family: "Lato", sans-serif;
   font-size: large;
   color: brown;
@@ -528,6 +529,7 @@ footer h3 {
 footer section {
   display: flex;
   justify-content: center;
+  list-style: none;
 }
 
 footer section a img {
