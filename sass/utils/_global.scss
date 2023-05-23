@@ -36,3 +36,9 @@ ul {
     grid-template-rows: repeat($rows, 1fr);
 }
 
+@mixin templateFlex($justify, $list) {
+    display: flex;
+    justify-content: $justify;
+    list-style: $list;
+}
+

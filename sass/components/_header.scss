@@ -4,13 +4,11 @@ header nav{
 }
 
 header nav section {
-    display: flex;
-    justify-content: space-between;
+    @include templateFlex(space-between, none);
 }
 
 header nav section div {
-    display: flex;
-    justify-content: end;
+    @include templateFlex(end, none);
 }
 
 header nav section a img {
@@ -24,9 +22,7 @@ header nav section a img {
 }
 
 header nav section div ul {
-    display: flex;
-    justify-content: end;
-    list-style: none;
+    @include templateFlex(end, none);
 }
 
 header nav section div ul li a img{
@@ -37,8 +33,7 @@ header nav section div ul li a img{
 }
 
 .busqueda-index {
-    display: flex;
-    justify-content: right;
+    @include templateFlex(right, none);
     margin-bottom: 2px;
     margin-top: 10px;
     margin-right: 5px;
@@ -53,10 +48,12 @@ header nav section div ul li a img{
         background-color: rgba(0, 0, 0, 0.850);
         box-shadow: 1px 1px 1px 2px;
         font-weight: bolder;
+        transition-duration: 0.8s;
     }
 
     & input:hover {
         color: rgba(0, 0, 255, 0.745);
+        transition-duration: 0.8s;
     }
 }
 

@@ -1,19 +1,17 @@
 //MAIN
 
 .encabezado h1 {
+    @include templateFlex(center, none);
     font-size: 80px;
     font-family: 'Lato', sans-serif;
     color: brown;
-    display: flex;
-    justify-content: center;
     padding: 5px;
     margin-bottom: 10px;
     box-shadow: 1px 3px 8px black;
 }
 
 .iniciarsesion__box {
-    display: flex;
-    justify-content: center;
+    @include templateFlex(center, none);
     margin-top: 91px;
 
     &-form {
@@ -38,8 +36,7 @@
         }
 
         &-button {
-        display: flex;
-        justify-content: center;
+            @include templateFlex(center, none);
         
 
             & button {
@@ -51,6 +48,7 @@
             box-shadow: 1px 1px 1px 2px;
             font-weight: bolder;
             margin-bottom: 8px;
+            transition-duration: 1s;
             }
 
             & button:hover {
@@ -59,8 +57,7 @@
 
 
             &-crear {
-            display: flex;
-            justify-content: center;
+            @include templateFlex(center, none);
             padding-bottom: 220px;
             align-items: center;
             

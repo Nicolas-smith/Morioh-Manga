@@ -18,7 +18,7 @@
     
 
         & div {
-        background-color: $fontlight;
+        background-color: $fontwhite;
         border: 2px solid $fontdark;
         text-align: center;
         }
@@ -28,14 +28,14 @@
         font-style: normal;
         color: $fontmain;
         font-size: 30px;
-        background-color: $fontlight;
+        background-color: $fontwhite;
         border-bottom: 2px solid #edb753b6;
         }
 
         &-item {
         padding: 15px;
         margin: 10px;
-        background-color: $fontlight;
+        background-color: $fontwhite;
         }
     }
 }

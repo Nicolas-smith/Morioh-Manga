@@ -11,8 +11,7 @@
     font-weight: bolder;
 
     &__container-navbar ul {
-        display: flex;
-        justify-content: space-evenly;
+        @include templateFlex(space-evenly, none);
         margin: 15px;
         padding: 15px;
     
@@ -29,6 +28,8 @@
             font-family: 'Lato', sans-serif;
             border-bottom: 2px solid $fontdark;
             border-top: 2px solid $fontdark;
+            transition-duration: 0.5s;
+
         }
     
         & li a:active {
@@ -41,8 +42,7 @@
 
 }
 .img {
-    display: flex;
-    justify-content: center;
+    @include templateFlex(center, none);
     padding-left: 620px;
     padding-right: 620px;
 
@@ -76,28 +76,30 @@
 
         &-griditem {
             padding: 15px;
-            background-color: $fontlight;
+            background-color: $fontwhite;
             text-align: center;
     
 
             & h3 {
-                background-color: $fontlight;
+                background-color: $fontwhite;
                 padding: 3px;
                 font-family: 'Lato', sans-serif;
             }
 
             & h4 {
-                background-color: $fontlight;
+                background-color: $fontwhite;
                 border: 1px solid $fontmain;
                 border-radius: 30px;
                 padding: 2px;
                 color: $fontmain;   
                 font-family: 'Lato', sans-serif;
+                transition-duration: 1s;
             }
 
             & h4:hover {
                 color: $fontdark;
                 background-color: #edb753b6;
+                transition-duration: 1s;
             }
         }
     }
